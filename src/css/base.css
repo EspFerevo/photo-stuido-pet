@@ -1,0 +1,102 @@
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
+/* Mobile devices */
+.container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Tablet devices */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+/* Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+/* Desktop 1440px devices */
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+/* Mobile devices */
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* Tablet devices */
+@media only screen and (min-width: 768px) {
+  section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+/* Desktop 1280px devices */
+@media only screen and (min-width: 1280px) {
+  section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
+
+body {
+  font-family: 'DM Sans';
+  color: #fff;
+  background-color: #121212;
+}
+
+/* dm-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/dm-sans-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* dm-sans-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/dm-sans-v14-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* dm-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/dm-sans-v14-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* dm-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/dm-sans-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
